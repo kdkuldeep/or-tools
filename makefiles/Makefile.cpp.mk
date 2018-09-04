@@ -487,7 +487,7 @@ test_fz_examples: fz
 	$(MAKE) rfz_alpha
 
 rfz_%: fz $(EX_DIR)$Sflatzinc$S%.fzn
-	$(BIN_DIR)$Sfz$E $(EX_DIR)$Sflatzinc$S$*.fzn
+	$(BIN_DIR)$Sfz$E $(EX_PATH)$Sflatzinc$S$*.fzn
 ####################
 ##  C++ Examples  ##
 ####################
